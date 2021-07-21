@@ -1,0 +1,191 @@
+.youtubeSection{
+  width: 80%;
+  height: 100vh;
+
+  background: #F9F9F9;
+  overflow: hidden;
+
+}
+.youTubeGallery{
+  position: absolute;
+  top: 0px;
+  width: 86%;
+  height: 100%;
+
+  overflow-y: scroll;
+  z-index: 0;
+  padding: 15px;
+  padding-top: 130px;
+
+}
+.slideCard{
+  width: 100%;
+}
+.section1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 40px;
+  padding: 10px;
+}
+.section2{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 40px;
+  padding: 10px;
+}
+.section3{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 40px;
+  padding: 10px;
+}
+.thumbnail{
+  width: 300px;
+  height: 290px;
+  cursor: pointer;
+}
+.slidethumbnail{
+  width: 310px;
+  height: 300px;
+}
+.thumbnailImages{
+  width: 100%;
+  height: 65%;
+  position: relative;
+}
+
+
+.thumbTile{
+  position: absolute;
+  width: 10%;
+  height: 100%;
+
+  top: 0px;
+  right: 5px;
+  visibility: hidden;
+}
+.watchLater{
+  width: 100%;
+  height: 30px;
+    background: black;
+  margin: 5px 5px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addPlayList{
+  width: 100%;
+  height: 30px;
+    background: black;
+    margin: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnailDescribe{
+  width: 100%;
+  height: 35%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youTubeAccountUser{
+  width: 20%;
+  height: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.youTubeAvatar{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+  margin: 15px 10px 10px 10px;
+}
+.youTubeVideoDescribe{
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.youTubeVideoTitle{
+  width: 100%;
+  height: 50px;
+
+  padding: 8px;
+  position: relative;
+}
+.youTubeVideoDurationAccount{
+  width: 100%;
+  height: 40px;
+
+}
+.youTubeVideoAccountName{
+  padding: 0px 8px 0px 8px;
+}
+.youTubeVideoRelease{
+  padding: 0px 8px 0px 8px;
+}
+.thumb{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-top: 5px;
+    color:black;
+}
+.channelName{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding-top: 5px;
+  color: #696969;
+}
+.views,.uploadTime{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding-top: 5px;
+  color: #696969;
+}
+.svgAccount{
+  fill: #696969;
+}
+.dotsMenu{
+  width: 5%;
+  height: 50%;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  visibility: hidden;
+}
+.dot{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #696969;
+  margin: 1.5px;
+}
